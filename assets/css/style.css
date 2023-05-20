@@ -26,16 +26,20 @@ body {
     text-shadow: 2px 7px rgb(3, 3, 3);
     font-size: 200%;
     margin-top: 0%;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 
 .header p {
-    margin-left: 15%;
+    margin-left: 20%;
     font-size: 15px;
     line-height: 1.5px;
    
 }
-
+.header img {
+    float: left;
+    margin-left: 15px;
+    position:absolute;
+}
 .nav {
     width:100%;
     max-height: 40px;
@@ -50,14 +54,45 @@ body {
 
 .nav ul li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 60px;
     justify-content: space-between;
     font-weight: bold;
     font-size: 120%;
 }
+li:hover {
+background-color: var(--light);
+}
 
+main {
+    display: flex;
+}
 
+.Aboutme {
+    margin-left: 10px;
+    margin-right: 7px;
+}
+.Aboutme h2 {
+margin: 1%;
+}
+.Aboutme p {
+    margin: 1%;
+    align-items: center;
+    }
 
-
+ @media screen and (max-width: 995px) {
+    .header {
+        background: #001b4d;
+        color: white;
+    }
+    .header img {
+        display: none;
+    }
+ }
+ @media screen and (max-width: 760px) {
+    .header {
+        background: #4d0049;
+        color: white;
+    }
+ }
 
 
