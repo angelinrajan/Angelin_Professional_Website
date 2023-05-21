@@ -1,13 +1,14 @@
+/* Universal selector. The font is applied throughout the entire webpage*/
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+/* Root contains colors that are used repeatedly for easier use and change */
 :root {
     --dark: rgb(6, 6, 38);
     --light: rgb(255, 255, 255);
     --navlink-color: rgb(6, 6, 38);
-
 }
+/* Body contains properties applied throughout the entire webpage */
 body {
     display: flex;
     flex-direction: column;
@@ -16,7 +17,7 @@ body {
     background-repeat: no-repeat;
     background-size:contain;
 }
-
+/* header contains poperties that apply to the entire header including background image for header */
 .header {
     width: 100%;
     max-height: 100px;
@@ -25,23 +26,25 @@ body {
     background-image: url("../Image/Header-footerImage.png");
     color: var(--light);
 }
+/* h1 within the header contains properties applied specifically to teh title of the header */
 .header h1 {
     text-shadow: 2px 7px rgb(3, 3, 3);
     font-size: 200%;
     margin-top: 0%;
     margin-left: 30%;
 }
-
+/* p within the header contains prperties applied specifically to the subtitle of the header */
 .header p {
     margin-left: 37%;
     font-size: 15px;
     line-height: 1.5px;
-   
 }
+/* img within the header contains prperties applied specifically to the professional picture within the header */
 .header img {
     margin-left: 15%;
     position:absolute;
 }
+/* nav contains properties that apply to the entire nav bar including */
 .nav {
     width:100%;
     max-height: 40px;
@@ -49,11 +52,12 @@ body {
     margin:0%;
     border: 2px solid var(--dark);
 }
+/* ul within nav contains prperties applied specifically to the grouped list's section */
 .nav ul {
     text-align: right;
     margin: 0%
 }
-
+/* li within the un-ordered list contains properties applied specifically to each item of the list */
 .nav ul li {
     display: inline;
     margin-right: 60px;
@@ -61,15 +65,16 @@ body {
     font-weight: bold;
     font-size: 120%;
 }
+/* hover provides background cahnge color when a mouse hover happens over the li */
 li:hover {
 background-color: var(--light);
 }
-
+/* properties within main applies to each section within the main webpage */
 main {
     display: flex;
     position: relative;
 }
-
+/* about me contains properties that apply to the about me section */
 .Aboutme {
     margin-left: 5px;
     margin-right: 10px;
@@ -78,16 +83,20 @@ main {
     height: min-content;
     background-color: #e6f3fd;
     margin-top: 1%;
+    box-shadow: inset 0px 2px 3px 6px rgb(74, 51, 79);
 }
+/* h2 within about me contains properties that apply specificlaly to the title of the about me section */
 .Aboutme h2 {
     text-align: center;
 }
-
+/* p within about me contains properties that apply specificlaly to the paragraph of the about me section */
 .Aboutme p {
     margin: 1%;
     align-items: center;
     padding: 3%;
+    margin-left: 3%;
     }
+    /* span and span hover after contains prperties on the format of the text and how the details are displayed upon hovering over the text */
     span[data-descr] {
         position: relative;
         text-decoration: underline;
@@ -109,7 +118,7 @@ span[data-descr]:hover::after {
     z-index: 1;
     cursor: grab;
     }
-
+/* contains properties for the title for my work */
 #titlework {
     font-size: 30px;
     font-weight: bold;
@@ -122,7 +131,7 @@ span[data-descr]:hover::after {
     margin-left: 50%;
     margin-right: 50%;
 }
-
+/* section includes properties that apply to the disfferent sections */
 section {
     background-color: black;
     padding:30px;
@@ -132,26 +141,23 @@ section {
     box-shadow: 10px 10px rgb(100, 98, 100);
     height: min-content;
   }
+  /* html includes properties to the 1st my work section */
   section .html {
     background-color: rgb(124, 169, 188);
     margin-top: 3%;
     border-style: groove;
   }
-  section .smallimages {
-    background-color: var(--light);
-    margin-top: 3%;
-    border-style: groove;
-  }
-  
+  /* small images includes properties that apply to the javascript and web api section within my work */
   section .smallimages {
     background-color: gray;
     margin-top: 3%;
     border-style: groove;
   }
+  /* hover property displays what happens to the property upon mouse hover */
   section div:hover {
     background-color: white;
     }
-
+/* contains priperties specific to the my work images and paragraph */
   div h3 {
     font-size: 16px;
     margin: 1%;
@@ -161,6 +167,7 @@ section {
     font-size: 13px;
     margin: 0%;
 }
+/* img contains specific details for the html and the placeholder images */
     .html img {
     padding: 2%;
     padding-left: 3%;
@@ -168,7 +175,6 @@ section {
     align-items: center;
     transform: rotate(1deg);
 }
-
     .smallimages img {
     padding: 2%;
     padding-left: 3%;
@@ -176,10 +182,11 @@ section {
     align-items: center;
     transform: rotate(1deg);
 }
-
+/* footer contains properties that apply to the entire footer section */
 footer {
     white-space: pre-line;
 }
+/* contains properties specific to the heading of the footer section */
 footer h3 {
 margin-left: 60%;
 margin-top: 1%;
@@ -191,12 +198,14 @@ font-size: 26px;
 text-decoration: 2px double var(--dark) underline;
 color: var(--dark);
 }
+/* contains properties specific to the unordered lists section within the footer */
 footer ul {
     margin-left: 60%;
     list-style-type: none;
     margin-top: 0%;
     font-size: 18px;
 }
+/* contains properties specific to the end line within the footer*/
 footer p {
     text-align: center;
     margin-right: 70%;
@@ -210,14 +219,14 @@ footer p {
     margin-top: 0%;
 }
 
-
+/* contains properties on how and what changes upon screen size reaching 995px and below */
  @media screen and (max-width: 995px) {
     .header {
         background: #001b4d;
         color: white;
     }
     .header img {
-        display: none;
+        display: none;   /*profession picture is meant to disappear if screen size goes 995px or below */
     }
     section {
         flex-direction: column;
@@ -239,7 +248,7 @@ footer p {
         background: #001b4d;
         color: white;
     }
-    footer h2 {
+    footer h3 {
         text-align: left;
         margin-left: 20%;
         color: white;
@@ -250,6 +259,7 @@ footer p {
     }
  }
 
+/* Contails properties on how and what changes upon screen size reaching 760px and below */
  @media screen and (max-width: 760px) {
     .header {
         background: #4d0049;
@@ -259,6 +269,12 @@ footer p {
         width:25%;
         background-color: white;
     }
+    footer {
+        background: #4d0049;
+        color: white;
+    }
+
 }
+
 
 
