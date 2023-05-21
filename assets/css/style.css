@@ -180,7 +180,7 @@ section {
 footer {
     white-space: pre-line;
 }
-footer h2 {
+footer h3 {
 margin-left: 60%;
 margin-top: 1%;
 margin-bottom: 1%;
@@ -188,6 +188,7 @@ padding-top: 1%;
 font-weight: bold;
 font-style: oblique;
 font-size: 26px;
+text-decoration: 2px double var(--dark) underline;
 color: var(--dark);
 }
 footer ul {
