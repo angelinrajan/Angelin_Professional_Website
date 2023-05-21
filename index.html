@@ -17,25 +17,25 @@
 
         <nav class="nav">
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
-                <li><a href="#">Contact Info</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#websites">My Work</a></li>
+                <li><a href="#info">Contact Info</a></li>
             </ul>
         </nav>
 
         <!---main conent-->
         <main>
             <aside class="Aboutme">
-                <h2> About Me </h2>
+                <h2 id="About"> About Me </h2>
                 <p> Hello!  Thank you for your company's interest in viewing my portfolio. I have been working in the IT industry for over
                      6 years. My experience has been in software testing and curently work for Jacobs Technologies as a Test Engineer. I 
-                     am looking to switch careers to Software Development due to my ken itnerest in coding. So far I have learnt HTML and 
-                     CSS. Please refer to the My Work section below to view some of my work. This section is in-progress. More websites 
+                     am looking to switch careers to Software Development due to my keen interest in coding. So far I have learnt HTML and 
+                     CSS. Please refer to the <span data-descr="Html & CSS website available">"My Work"</span> section to view some of my work. This section is in-progress. More websites 
                      will be added as I advance through the bootcamp.
                 </p>
             </aside>
             <header id="titlework">My Work</header>
-            <section>
+            <section id="websites">
                 <div class="html">
                     <h3>HTML & CSS</h3>
                     <a href="https://angelinrajan.github.io/1stModeule-22-Stu-Mini-Project/"><img src="./assets/Image/HTML&CSS.png" alt="html and css image"></a>
@@ -58,8 +58,14 @@
             </section>
         </main>
 
-        <footer>
-            <p> </p>
+        <footer id="info">
+            <h2>Contact Info:</h2>
+            <ul>
+                <li><strong>Phone: </strong>(240)750-4567</li>
+                <li><strong>Email: </strong>angelin.rajan7@gmail.com</li>
+                <li><strong>Github: </strong>https://github.com/angelinrajan</li>
+            </ul>
+            <p> Hope you liked viewing my work! </p>
         </footer>
 
     </body>
