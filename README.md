@@ -1,47 +1,42 @@
 # Angelin's Professional Portfolio
 
 ## Website Overview
-
-    The web application named Horiseon is a marketing agency that assis businesses with better search engine results, Online Reputation management, and Social media marketing.
-    Some key benefits they provide are : Lead Generation, Brand Awareness, and Cost Management.
-Outside Resoures:
-Shadow: https://www.youtube.com/watch?v=y99TgIsKM9Q
-image in same line as header: https://stackoverflow.com/questions/11701311/logo-image-and-h1-heading-on-the-same-line
-Reference for how to use flex properties: https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
-backgroundImage: https://unsplash.com/s/photos/pattern
-box-shadown (inner) : https://css-tricks.com/snippets/css/css-box-shadow/
+    The web application named Angelin's Portfolio is my personal professional website to display my portfolio to future employers. The goal for this website is to showcase my work at a single place as I advance through the bootcamp and create additional websites.
+    As of now, my website for HTML&CSS has been liked within the Angelin's Portfolio website.
+    Key benefit for this webside is for me to present my skills I have learnt to potential employers that is viewable tin different screen sizes.
 
 ## Website's Live URL - 
 
 ## Functionality within the website-
-1. Updated html file to ensure all links are working as expected
-2. Updated html and css files to follow better semantics which will allow better accessibility
-3. Updated alt attributes for images to allow better accessibility if assistive technology is used
-4. Updated html and css files to ensure elements follow a logical structure, and fall in sequential order
-5. Consolidated and organized css selectors
-6. Updated css file with comments
-7. Added a Readme.md file
+1. A small picture of me will be displayed
+2. Details on "About me", "My work", and "Contact information" will be displayed
+3. Clicking on the links displayed within the nav bar will navigate user its corresponding section within the webpage
+4. Hovering over the individual sections within "my work" will change background colors to notify user of the selection
+5. "HTML & CSS" section within "my work" displays a screenshot of the linked website for the user while Javascript and web API sections display Placeholder images.
+6. Clicking on the "HTML & CSS" image navigates the ser to the linked website.
+7. Clicking on the placeholder images for Javascript and Web API does not navigate user outside of the webpage yet. This functionality is to change in the future once websites are developed and linked.
+8. My photo, and header bckgound image will be viewable in screen sizes 993 or larger.
+9. Color changes within header and footer is viewed upon changing different screen sizes.
+10. Details on "About me", "My work", and "Contact information" will be displayed clearly for different screen sizes.
 
 
 ## Deployment steps-
-1. Performed git clone from gitlab (original code) to local
-2. Created a new local repository for the challenge using git init
-3. Copied the existing files for the challenge to the newly created repository
-4. In Githu, created a new repository with the same name as local without the Readme.md file
-5. Copied the commands to merge with an exisintg repository
-6. In local, staged and committed changes
-7. Ran the copied merge command in local
-8. Verified that changes are successfully displayed in Github
-9. Additional staging, commits, pull, push, and merge was performed as updates were made to the code.
-10. Main branch was selected for deployment by navigating to settings/pages from the repository
-11. Deployment website was clicked by going to the Actions page of the repository
-12. Webside deployed successfully without errors (See screenshot below)
+1. Created a new repository within Github (included README file)
+2. Copied the ssh url for cloning
+3. Performed a git clone command followed by the copied ssh url in my local (VS code)
+4. Multiple commits and git push was done to keep repository up to date
+5. Finally, deployment happened from Github by nativating to the repository/pages and selecting main branch to deploy
+6. The progress and the live website's url is displayed within the Actions tab
+7. Clicking on the live website's link navigates user to the live website which is deployed without errors (See screenshot below)
+
+
 
 
 ## Outside source reference-
 
-    1. Shadow: https://www.youtube.com/watch?v=y99TgIsKM9Q
-    2. image in same line as header: https://stackoverflow.com/questions/11701311/logo-image-and-h1-heading-on-the-same-line
-    3. Reference for how to use flex properties: https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
-    4. backgroundImage: https://unsplash.com/s/photos/pattern
-    5. box-shadown (inner) : https://css-tricks.com/snippets/css/css-box-shadow/
+    1. To learn about using Shadow: https://www.youtube.com/watch?v=y99TgIsKM9Q
+    2. To learn how to usean image in same line as header: https://stackoverflow.com/questions/11701311/logo-image-and-h1-heading-on-the-same-line
+    3. Referenced for how to use flex properties: https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/
+    4. To learn on how to use backgroundImage: https://unsplash.com/s/photos/pattern
+    5. To learn about using box-shadown (inner) : https://css-tricks.com/snippets/css/css-box-shadow/
+    6. Referenced how to incorporate Jump Anchors : https://www.w3docs.com/snippets/html/how-to-create-an-anchor-link-to-jump-to-a-specific-part-of-a-page.html
