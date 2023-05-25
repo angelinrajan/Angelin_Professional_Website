@@ -5,7 +5,7 @@
     As of now, my website for HTML&CSS has been liked within the Angelin's Portfolio website.
     Key benefit for this webside is for me to present my skills I have learnt to potential employers that is viewable tin different screen sizes.
 
-## Website's Live URL - 
+## Website's Live URL - https://angelinrajan.github.io/Angelin_week2-Challenge/
 
 ## Functionality within the website-
 1. A small picture of me will be displayed
@@ -29,7 +29,7 @@
 6. The progress and the live website's url is displayed within the Actions tab
 7. Clicking on the live website's link navigates user to the live website which is deployed without errors (See screenshot below)
 
-
+    ![Live Website's Screenshot](assets/Image/_C__Users_angel_bootcamp_Challenge_Angelin_week2-Challenge_index.html.png)
 
 
 ## Outside source reference-
