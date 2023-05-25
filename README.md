@@ -5,7 +5,7 @@
     As of now, my website for HTML&CSS has been liked within the Angelin's Portfolio website.
     Key benefit for this webside is for me to present my skills I have learnt to potential employers that is viewable tin different screen sizes.
 
-## Website's Live URL - https://angelinrajan.github.io/Angelin_week2-Challenge/
+## Website's Live URL - https://angelinrajan.github.io/Angelin_Professional_Website/
 
 ## Functionality within the website-
 1. A small picture of me will be displayed
