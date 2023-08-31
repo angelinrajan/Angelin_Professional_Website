@@ -148,9 +148,10 @@ section {
     border-style: groove;
   }
   /* small images includes properties that apply to the javascript and web api section within my work */
-  section .smallimages {
+  .smallimages {
     background-color: gray;
     margin-top: 3%;
+    width:40%;
     border-style: groove;
   }
   /* hover property displays what happens to the property upon mouse hover */
@@ -217,6 +218,12 @@ footer p {
     font-size: 20px;
     padding-top: 3px;
     margin-top: 0%;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1%;
 }
 
 /* contains properties on how and what changes upon screen size reaching 995px and below */
