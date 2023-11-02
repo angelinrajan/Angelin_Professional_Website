@@ -29,7 +29,7 @@
 6. The progress and the live website's url is displayed within the Actions tab
 7. Clicking on the live website's link navigates user to the live website which is deployed without errors (See screenshot below)
 
-    ![Live Website's Screenshot](assets/Image/_C__Users_angel_bootcamp_Challenge_Angelin_week2-Challenge_index.html.png)
+    ![Live Website's Screenshot](assets/Image/UpdatedPortfolioScreenshot.png)
 
 
 ## Outside source reference-
